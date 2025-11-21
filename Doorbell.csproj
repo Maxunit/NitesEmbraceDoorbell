@@ -1,0 +1,32 @@
+﻿<Project Sdk="Dalamud.NET.Sdk/13.0.0">
+  <PropertyGroup>
+    <Version>1.0.4.0</Version>
+    <AssemblyName>NitesEmbraceDoorbell</AssemblyName>
+    <!--	<OutputPath>..\Build\Doorbell\</OutputPath>-->
+  </PropertyGroup>
+  <ItemGroup>
+    <Content Include="NitesEmbraceDoorbell.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NAudio" Version="1.10.0" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Remove="doorbell.wav" />
+	<None Remove="lalawarning.wav" />
+  </ItemGroup>
+  
+  <ItemGroup>
+    <None Include="doorbell.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="lalawarning.wav">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

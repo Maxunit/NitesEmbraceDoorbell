@@ -1,0 +1,27 @@
+﻿[
+  {
+    "Author": "Alice Stryker",
+    "Name": "Doorbell Echo",
+    "Punchline": "Play a chime when someone comes into a house and sniffs out lalafels.",
+    "Description": "Play a chime when someone comes into a house and sniffs out lalafels.",
+    "Changelog": "",
+    "InternalName": "EchoDoorbell",
+    "AssemblyVersion": "1.1.2.11",
+    "RepoUrl": "https://github.com/wolfricoz/Doorbell",
+    "ApplicableVersion": "any",
+    "CategoryTags": [
+      "doorbell",
+      "house",
+      "aida",
+      "rico"
+    ],
+    "DalamudApiLevel": 12,
+    "IconUrl": "https://i.imgur.com/wtOolxu.png",
+
+    "DownloadLinkInstall": "https://github.com/wolfricoz/Doorbell/releases/download/release/latest.zip",
+    "IsHide": false,
+    "IsTestingExclusive": false,
+    "DownloadLinkTesting": "https://github.com/wolfricoz/Doorbell/releases/download/release/latest.zip",
+    "DownloadLinkUpdate": "https://github.com/wolfricoz/Doorbell/releases/download/release/latest.zip"
+  }
+]
